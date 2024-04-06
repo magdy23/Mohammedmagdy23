@@ -10,9 +10,7 @@ info:
         <h1>HTML Injection : hacked</h1>
         <h1>HTML Injection : hacked</h1>
         <h1>HTML Injection : Fake Login</h1>
-        <svg><animatetransform onbegin=alert(5)>
         <img src=x onerror=alert(0)>
-        <object onerror=javascript:javascript:alert(1)>
     </div>
     <div class="form-container">
     <h1>HTML Injection : Fake Login</h1>
