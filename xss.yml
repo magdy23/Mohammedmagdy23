@@ -6,9 +6,7 @@ info:
     <div class="heading">
         <h1>HTML Injection : Fake Login</h1>
          <img src="https://www.icegif.com/wp-content/uploads/2022/01/icegif-165.gif" width="1000" height="6000">
-         <fieldset><legend>hello:</legend><label for="fname">First name:</label><input type="text"id="fname"name="fname"><br><br><inputtype="submit" value="Submit"></fieldset>
-          <h1>HTML Injection : Hacked</h1>
-
+        <h1>HTML Injection : Hacked</h1>
     </div>
     <div class="form-container">
         <form action="https://example.com/login" method="post" class="form-signin">
