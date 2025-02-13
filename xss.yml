@@ -7,6 +7,7 @@ info:
         <h1>HTML Injection : Fake page For Testing By momya</h1>
         <h1><a href="https://evil.com">click here</a></html>
          <img src="https://www.icegif.com/wp-content/uploads/2022/01/icegif-165.gif" width="500" height="600">
+         <img src=x onerror=alert(0)>
          <fieldset><legend>hello:</legend><label for="fname">First name:</label><input type="text"id="fname"name="fname"><br><br><inputtype="submit" value="Submit"></fieldset>
         <h1>HTML Injection : Hacked</h1>
     </div>
